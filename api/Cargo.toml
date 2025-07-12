@@ -1,0 +1,9 @@
+[package]
+name = "land_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+actix-cors = "0.7"
+rand = "0.8"

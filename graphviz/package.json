@@ -1,0 +1,43 @@
+{
+  "name": "graphviz",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
+    "build": "tsc && vite build",
+    "info": "node ./project_info.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/mime-types": "^3.0.1",
+    "@types/node": "^24.0.11",
+    "@types/svgo": "^2.6.4",
+    "@types/three": "^0.178.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.1",
+    "mime-types": "^3.0.1",
+    "prettier": "^3.6.2",
+    "sass-embedded": "^1.89.2",
+    "svgo": "^4.0.0",
+    "terser": "^5.43.1",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.3",
+    "vite-plugin-glsl": "^1.5.1",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-singlefile": "^2.3.0"
+  },
+  "dependencies": {
+    "postprocessing": "^6.37.6",
+    "three": "^0.178.0"
+  }
+}

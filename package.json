@@ -1,0 +1,18 @@
+{
+  "name": "graph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently -k -n API,Client -c cyan,green \"cargo run --manifest-path api/Cargo.toml\" \"npm run dev --prefix graphviz\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm install --prefix graphviz && cargo install --path api --locked",
+    "build": "npm run build --prefix graphviz && cargo build --release --manifest-path api/Cargo.toml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
