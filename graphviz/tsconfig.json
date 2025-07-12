@@ -27,5 +27,6 @@
       "three/webgpu": ["node_modules/three/build/three.webgpu.js"]
     }
   },
+  "extends": "../tsconfig.json",
   "include": ["src", "./vite.config.ts"]
 }
