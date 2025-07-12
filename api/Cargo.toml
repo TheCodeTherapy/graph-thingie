@@ -1,9 +1,10 @@
 [package]
-name = "land_api"
+name = "magus"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
-actix-web = "4"
-actix-cors = "0.7"
-rand = "0.8"
+proptest = "1.7.0"
+serde = { version = "1.0.219", features = ["derive"] }
+test-strategy = "0.4.3"
+world-data = "0.4.1"
