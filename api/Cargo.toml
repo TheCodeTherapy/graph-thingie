@@ -1,9 +1,28 @@
+<<<<<<< Conflict 1 of 1
+%%%%%%% Changes from base to side #1
+-[package]
+-name = "magus"
+-version = "0.1.0"
+-edition = "2024"
+-
+-[dependencies]
+-proptest = "1.7.0"
+-serde = { version = "1.0.219", features = ["derive"] }
+-test-strategy = "0.4.3"
+-world-data = "0.4.1"
++++++++ Contents of side #2
 [package]
-name = "land_api"
+name = "magus"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
-actix-web = "4"
-actix-cors = "0.7"
-rand = "0.8"
+serde = { version = "1.0.219", features = ["derive"] }
+proptest = "1.7.0"
+test-strategy = "0.4.3"
+serde_json = "1.0.140"
+chrono = { version = "0.4", features = ["serde"] }
+tokio = { version = "1.0", features = ["full"] }
+tokio-tungstenite = "0.21"
+futures-util = "0.3"
+>>>>>>> Conflict 1 of 1 ends
