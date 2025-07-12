@@ -1,14 +1,3 @@
-<<<<<<< Conflict 1 of 1
-%%%%%%% Changes from base to side #1
--use serde::{Deserialize, Serialize};
--
--#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
--pub struct Update {}
--
--fn main() {
--    println!("Hello, world!");
--}
-+++++++ Contents of side #2
 use std::{net::Ipv4Addr, time::Duration};
 
 use chrono::{DateTime, FixedOffset};
@@ -206,4 +195,3 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     Ok(())
 }
->>>>>>> Conflict 1 of 1 ends
